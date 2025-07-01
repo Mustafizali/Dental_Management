@@ -1,12 +1,89 @@
-# React + Vite
+# ENTNT Dental Center Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend-only dental center management system built in React as a technical assignment. It supports simulated login, patient and appointment management, calendar view, and file upload — using  localStorage for persistence.
 
-Currently, two official plugins are available:
+ 🌐 Live Demo
+https://dental-management-git-main-mdalisayedma-gmailcoms-projects.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📁 GitHub Repository
+https://github.com/Mustafizali/Dental_Management
 
-## Expanding the ESLint configuration
+ 👥 User Roles
+- Admin (Dentist):** Full access to dashboard, patients, appointments, incidents.
+- Patient: Can only view their own profile, appointment history, and files.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ 🔐 Authentication (Simulated)
+- Login using hardcoded users.
+- Session persistence using `localStorage`.
+
+ 🧑‍⚕️ Patient Management
+- View/Add/Edit/Delete patients
+- Stores name, DOB, contact, health info
+
+🗓️ Appointment / Incident Management
+- Manage multiple treatment incidents per patient
+- Fields: title, description, comments, datetime, status, cost, treatment, next date
+- File uploads (invoices, images) stored as base64/Blob URLs
+📆 Calendar View
+- Grouped monthly/weekly appointment overview
+- Clickable dates to reveal incidents scheduled
+
+🧾 Dashboard
+- Next 10 appointments
+- Top patients, total revenue, completed/pending counts
+
+ 👤 Patient View
+- Own data only: appointments, files, status, cost, next treatment
+
+### 💾 Data Persistence
+- Everything stored in `localStorage` — no backend required
+
+---
+
+ 🛠️ Technologies Used
+- React (Functional Components)*
+- React Router DOM for navigation
+- Context API for auth
+- TailwindCSS for styling
+- UUID for generating unique IDs
+
+---
+
+ 🚀 How to Run Locally
+```bash
+git clone https://github.com/your-username/entnt-dental-dashboard.git
+cd entnt-dental-dashboard
+npm install
+npm start
+```
+
+---
+
+ 🧪 Test Credentials
+```
+Admin:
+Email: admin@entnt.in
+Password: admin123
+
+Patient:
+Email: john@entnt.in
+Password: patient123
+```
+
+---
+
+## ✅ Completed Assignment Checklist
+- [x] Simulated user login
+- [x] Role-based access
+- [x] Patient CRUD
+- [x] Incident CRUD with file upload
+- [x] Calendar view
+- [x] Patient profile
+- [x] Data in localStorage
+- [x] Responsive UI
+- [x] Deployed + GitHub + README
+
+---
+ 
+ 
+  
