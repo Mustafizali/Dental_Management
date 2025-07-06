@@ -5,8 +5,16 @@ This is a frontend-only dental center management system built in React as a tech
  🌐 Live Demo
 https://dental-management-git-main-mdalisayedma-gmailcoms-projects.vercel.app/
 
-📁 GitHub Repository
-https://github.com/Mustafizali/Dental_Management
+ Login-ID 
+```
+Admin:
+Email: admin@entnt.in
+Password: admin123
+
+Patient:
+Email: john@entnt.in
+Password: patient123
+```
 
  👥 User Roles
 - Admin (Dentist):** Full access to dashboard, patients, appointments, incidents.
@@ -55,19 +63,6 @@ git clone https://github.com/your-username/entnt-dental-dashboard.git
 cd entnt-dental-dashboard
 npm install
 npm start
-```
-
----
-
- 🧪 Test Credentials
-```
-Admin:
-Email: admin@entnt.in
-Password: admin123
-
-Patient:
-Email: john@entnt.in
-Password: patient123
 ```
 
 ---
